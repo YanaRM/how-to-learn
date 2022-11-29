@@ -81,7 +81,7 @@
 
 .two-columns {
   width: 80%;
-  margin: 100px auto;
+  margin: 100px auto 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -120,7 +120,6 @@
 }
 
 .digits {
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -163,21 +162,16 @@
 }
 
 .table__heading {
-  margin-bottom: 20px;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.15;
 }
 
 .table__text {
-  margin: 0;
+  margin: 20px 0 0 0;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
-}
-
-.table__text:nth-of-type(2) {
-  margin: 20px 0;
 }
 
 .feynman {
@@ -203,6 +197,8 @@
 
 .feynman__subtitle {
   margin: 0 auto auto auto;
+  /*невозможно обнулить все отступы подзаголовка, т.к. он в этом случае съезжает в левый нижний угол,
+  а заголовок распологается по центру блока*/
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
@@ -238,7 +234,7 @@
   z-index: 2;
 }
 
-.table__theme_dark {
+.table_theme_dark {
   margin: 0 auto 90px auto;
   z-index: 2;
 }
@@ -282,7 +278,7 @@
   justify-content: space-between;
 }
 
-.footer__column_content {
+.footer__column {
   color: white;
 }
 
@@ -299,7 +295,7 @@
   margin: 0 0 auto 0;
 }
 
-.footer__column_author {
+.footer__author {
   margin: 18px 0;
 }
 
@@ -318,7 +314,7 @@
   font-weight: 600;
 }
 
-.footer__column-links {
+.footer__column-link {
   margin-bottom: 16px;
   color: white;
   text-decoration: none;
@@ -333,13 +329,7 @@
   color: white;
 }
 
-.footer__column-link {
-  margin-bottom: 16px;
-  color: white;
-  text-decoration: none;
-}
-
-.footer__column_social-icon {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
