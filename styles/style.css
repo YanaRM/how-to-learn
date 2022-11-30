@@ -162,6 +162,7 @@
 }
 
 .table__heading {
+  margin: 0;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.15;
@@ -178,7 +179,7 @@
   min-height: 890px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   position: relative;
   background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
@@ -196,9 +197,7 @@
 }
 
 .feynman__subtitle {
-  margin: 0 auto auto auto;
-  /*невозможно обнулить все отступы подзаголовка, т.к. он в этом случае съезжает в левый нижний угол,
-  а заголовок распологается по центру блока*/
+  margin: 0;
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
