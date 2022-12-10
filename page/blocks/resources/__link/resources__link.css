@@ -1,0 +1,9 @@
+.resources__link {
+  margin: 0;
+  transition: background-color 3s ease;
+}
+
+.resources__link:hover {
+  background-color: white;
+  opacity: 50%;
+}
