@@ -2,4 +2,9 @@
   margin-bottom: 16px;
   color: white;
   text-decoration: none;
+  transition: opacity 1s linear;
+}
+
+.header__link:hover {
+  opacity: 30%;
 }
