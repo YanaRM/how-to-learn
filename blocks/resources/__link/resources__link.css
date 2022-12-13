@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   transition: background-color 3s ease;
-  list-style-type: none;
 }
 
 .resources__link:hover {
